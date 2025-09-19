@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+    int n = 15; //atribuindo valor para a variável
+    float n2 = 5.56; // varivel com casas decimais
+    char letra = 'a'; // variavel do tipo caracter
+    char frase[9] = "Bom dia";
+    double n3 = 1.23456; //variável real com precisão dupla 
+    
+
+    //Usos do comando printf com diversas variáveis
+    printf("Hello World!\n");
+    printf("Exibindo o numero inteiro %d\n",n);
+    printf("Exibindo um numero real %.2f\n",n2);
+    printf("Exibindo uma letra %c\n",letra);
+    printf("%s\n",frase);
+    printf("Exibindo variavel do tipo double %.5lf\n", n3);
+    printf("Valores: %d %.2f %c %s %.5lf\n",n,n2,letra,frase,n3);
+}     
